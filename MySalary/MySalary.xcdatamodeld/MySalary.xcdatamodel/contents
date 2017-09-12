@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Salary" representedClassName="Salary" syncable="YES">
+        <attribute name="bonus" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="goal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="locAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recurrance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salary" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="salesEntry" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SalesEntry" inverseName="salary" inverseEntity="SalesEntry" syncable="YES"/>
+    </entity>
+    <entity name="SalesEntry" representedClassName="SalesEntry" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sales" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="salary" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Salary" inverseName="salesEntry" inverseEntity="Salary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SalesEntry" positionX="513" positionY="-286" width="128" height="88"/>
+        <element name="Salary" positionX="763" positionY="-376" width="128" height="178"/>
+    </elements>
 </model>

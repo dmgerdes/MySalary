@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		4C1A3B8F1F0DBC00003917AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A3B8E1F0DBC00003917AF /* AppDelegate.swift */; };
-		4C1A3B911F0DBC00003917AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A3B901F0DBC00003917AF /* ViewController.swift */; };
+		4C1A3B911F0DBC00003917AF /* AddSalesEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A3B901F0DBC00003917AF /* AddSalesEntryVC.swift */; };
 		4C1A3B941F0DBC00003917AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1A3B921F0DBC00003917AF /* Main.storyboard */; };
 		4C1A3B971F0DBC00003917AF /* MySalary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A3B951F0DBC00003917AF /* MySalary.xcdatamodeld */; };
 		4C1A3B991F0DBC00003917AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1A3B981F0DBC00003917AF /* Assets.xcassets */; };
 		4C1A3B9C1F0DBC00003917AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1A3B9A1F0DBC00003917AF /* LaunchScreen.storyboard */; };
 		4C1A3BA71F0DBC00003917AF /* MySalaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A3BA61F0DBC00003917AF /* MySalaryTests.swift */; };
 		4C1A3BB21F0DBC00003917AF /* MySalaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A3BB11F0DBC00003917AF /* MySalaryUITests.swift */; };
+		4C36433B1F1FF3EA0084CC01 /* SalesEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3643371F1FF3EA0084CC01 /* SalesEntry+CoreDataClass.swift */; };
+		4C36433C1F1FF3EA0084CC01 /* SalesEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3643381F1FF3EA0084CC01 /* SalesEntry+CoreDataProperties.swift */; };
+		4C36433D1F1FF3EA0084CC01 /* Salary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3643391F1FF3EA0084CC01 /* Salary+CoreDataClass.swift */; };
+		4C36433E1F1FF3EA0084CC01 /* Salary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C36433A1F1FF3EA0084CC01 /* Salary+CoreDataProperties.swift */; };
+		4C4318B11F19F0E000CC9DF0 /* SalesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4318B01F19F0E000CC9DF0 /* SalesTableVC.swift */; };
+		4C4318B61F1D608100CC9DF0 /* SaleEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4318B51F1D608100CC9DF0 /* SaleEntryCell.swift */; };
+		4C4318BA1F1E629900CC9DF0 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4318B91F1E629900CC9DF0 /* Sale.swift */; };
+		4C4DB2BF1F1EC3C6007828BA /* SalaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DB2BE1F1EC3C6007828BA /* SalaryCell.swift */; };
+		4C4DB2C21F1ECAAF007828BA /* AddSalaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DB2C11F1ECAAF007828BA /* AddSalaryVC.swift */; };
+		4C4DB2C41F1ECAC3007828BA /* SalaryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DB2C31F1ECAC3007828BA /* SalaryTableVC.swift */; };
+		4CE27A2C1F2146F5002F797F /* TotalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27A2B1F2146F5002F797F /* TotalsCell.swift */; };
+		4CE27A2E1F214782002F797F /* TotalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE27A2D1F214782002F797F /* TotalsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,7 @@
 /* Begin PBXFileReference section */
 		4C1A3B8B1F0DBC00003917AF /* MySalary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySalary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1A3B8E1F0DBC00003917AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C1A3B901F0DBC00003917AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1A3B901F0DBC00003917AF /* AddSalesEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSalesEntryVC.swift; sourceTree = "<group>"; };
 		4C1A3B931F0DBC00003917AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C1A3B961F0DBC00003917AF /* MySalary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySalary.xcdatamodel; sourceTree = "<group>"; };
 		4C1A3B981F0DBC00003917AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		4C1A3BAD1F0DBC00003917AF /* MySalaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySalaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1A3BB11F0DBC00003917AF /* MySalaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySalaryUITests.swift; sourceTree = "<group>"; };
 		4C1A3BB31F0DBC00003917AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3643371F1FF3EA0084CC01 /* SalesEntry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SalesEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C3643381F1FF3EA0084CC01 /* SalesEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SalesEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C3643391F1FF3EA0084CC01 /* Salary+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salary+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C36433A1F1FF3EA0084CC01 /* Salary+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salary+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C4318B01F19F0E000CC9DF0 /* SalesTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesTableVC.swift; sourceTree = "<group>"; };
+		4C4318B51F1D608100CC9DF0 /* SaleEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleEntryCell.swift; sourceTree = "<group>"; };
+		4C4318B91F1E629900CC9DF0 /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		4C4DB2BE1F1EC3C6007828BA /* SalaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryCell.swift; sourceTree = "<group>"; };
+		4C4DB2C11F1ECAAF007828BA /* AddSalaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSalaryVC.swift; sourceTree = "<group>"; };
+		4C4DB2C31F1ECAC3007828BA /* SalaryTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryTableVC.swift; sourceTree = "<group>"; };
+		4CE27A2B1F2146F5002F797F /* TotalsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalsCell.swift; sourceTree = "<group>"; };
+		4CE27A2D1F214782002F797F /* TotalsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +123,10 @@
 		4C1A3B8D1F0DBC00003917AF /* MySalary */ = {
 			isa = PBXGroup;
 			children = (
+				4C4DB2C01F1ECA8E007828BA /* Controller */,
+				4C4318B81F1E627C00CC9DF0 /* Model */,
+				4C4318B21F1D603100CC9DF0 /* View */,
 				4C1A3B8E1F0DBC00003917AF /* AppDelegate.swift */,
-				4C1A3B901F0DBC00003917AF /* ViewController.swift */,
 				4C1A3B921F0DBC00003917AF /* Main.storyboard */,
 				4C1A3B981F0DBC00003917AF /* Assets.xcassets */,
 				4C1A3B9A1F0DBC00003917AF /* LaunchScreen.storyboard */,
@@ -126,6 +152,40 @@
 				4C1A3BB31F0DBC00003917AF /* Info.plist */,
 			);
 			path = MySalaryUITests;
+			sourceTree = "<group>";
+		};
+		4C4318B21F1D603100CC9DF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C4318B51F1D608100CC9DF0 /* SaleEntryCell.swift */,
+				4C4DB2BE1F1EC3C6007828BA /* SalaryCell.swift */,
+				4CE27A2B1F2146F5002F797F /* TotalsCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4C4318B81F1E627C00CC9DF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C3643371F1FF3EA0084CC01 /* SalesEntry+CoreDataClass.swift */,
+				4C3643381F1FF3EA0084CC01 /* SalesEntry+CoreDataProperties.swift */,
+				4C3643391F1FF3EA0084CC01 /* Salary+CoreDataClass.swift */,
+				4C36433A1F1FF3EA0084CC01 /* Salary+CoreDataProperties.swift */,
+				4C4318B91F1E629900CC9DF0 /* Sale.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4C4DB2C01F1ECA8E007828BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C1A3B901F0DBC00003917AF /* AddSalesEntryVC.swift */,
+				4C4318B01F19F0E000CC9DF0 /* SalesTableVC.swift */,
+				4C4DB2C11F1ECAAF007828BA /* AddSalaryVC.swift */,
+				4C4DB2C31F1ECAC3007828BA /* SalaryTableVC.swift */,
+				4CE27A2D1F214782002F797F /* TotalsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +256,7 @@
 				TargetAttributes = {
 					4C1A3B8A1F0DBC00003917AF = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = W8495D4UX7;
+						DevelopmentTeam = PN4EXD6TX3;
 						ProvisioningStyle = Automatic;
 					};
 					4C1A3BA11F0DBC00003917AF = {
@@ -266,8 +326,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1A3B971F0DBC00003917AF /* MySalary.xcdatamodeld in Sources */,
-				4C1A3B911F0DBC00003917AF /* ViewController.swift in Sources */,
+				4C4318B11F19F0E000CC9DF0 /* SalesTableVC.swift in Sources */,
+				4C4DB2C21F1ECAAF007828BA /* AddSalaryVC.swift in Sources */,
+				4C36433B1F1FF3EA0084CC01 /* SalesEntry+CoreDataClass.swift in Sources */,
+				4C1A3B911F0DBC00003917AF /* AddSalesEntryVC.swift in Sources */,
+				4C36433E1F1FF3EA0084CC01 /* Salary+CoreDataProperties.swift in Sources */,
+				4CE27A2C1F2146F5002F797F /* TotalsCell.swift in Sources */,
+				4C4DB2C41F1ECAC3007828BA /* SalaryTableVC.swift in Sources */,
+				4C4DB2BF1F1EC3C6007828BA /* SalaryCell.swift in Sources */,
 				4C1A3B8F1F0DBC00003917AF /* AppDelegate.swift in Sources */,
+				4C4318B61F1D608100CC9DF0 /* SaleEntryCell.swift in Sources */,
+				4CE27A2E1F214782002F797F /* TotalsVC.swift in Sources */,
+				4C36433D1F1FF3EA0084CC01 /* Salary+CoreDataClass.swift in Sources */,
+				4C36433C1F1FF3EA0084CC01 /* SalesEntry+CoreDataProperties.swift in Sources */,
+				4C4318BA1F1E629900CC9DF0 /* Sale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W8495D4UX7;
+				DEVELOPMENT_TEAM = PN4EXD6TX3;
 				INFOPLIST_FILE = MySalary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dmg.apps.MySalary;
@@ -432,7 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W8495D4UX7;
+				DEVELOPMENT_TEAM = PN4EXD6TX3;
 				INFOPLIST_FILE = MySalary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dmg.apps.MySalary;
@@ -518,6 +590,7 @@
 				4C1A3BB81F0DBC00003917AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1A3BB91F0DBC00003917AF /* Build configuration list for PBXNativeTarget "MySalaryTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +599,7 @@
 				4C1A3BBB1F0DBC00003917AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1A3BBC1F0DBC00003917AF /* Build configuration list for PBXNativeTarget "MySalaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +608,7 @@
 				4C1A3BBE1F0DBC00003917AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
